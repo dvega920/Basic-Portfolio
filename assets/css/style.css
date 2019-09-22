@@ -1,87 +1,113 @@
-html {
-    background-color: #ffffff;
-}
-
 body {
-    width: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-    color: #777777;
+    width: 100%;
     background-color: lightgray;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 20px solid #4aaaa5;
+    overflow: auto;
 }
 
-.main-header {
-    position: relative;
-    float: left;
-    margin: 0 auto;
+header {
     width: 100%;
     background-color: #ffffff;
-    border-color: #cccccc;
-    overflow: auto;
-    clear: both;
+}
+
+.entire-content {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 h1 {
     position: relative;
-    margin: 0 132px;
-    padding: 20px;
+    left: -20px;
+    margin: 0;
+    padding: 10px;  
+    float: left;
     background-color: #4aaaa5;
     color: #ffffff;
-    font-family: 'Georgia', 'Times', 'Times New Roman', 'sans-serif';
-    text-align: center;
-    float: left;
-    overflow: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 nav {
-    margin-left: 500px;
+    position: relative;
+    left: 40px;
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
     float: left;
-    padding: 20px;
+    padding: 8px;
 }
 
-a {
+nav a {
+    margin-right: 10px;
     text-decoration: none;
-    color: #777777;
-    padding: 5px;
 }
 
-hr {    
+/* clears floats */
+header::after {
+    content: '';
+    display: table;
     clear: both;
-    margin-bottom: 20px;
-}
-
-.main-content{
-    margin: 40px auto;
-    padding: 20px;
-    width: 960px;
-    background-color: #ffffff;
 }
 
 hr {
     margin: 0;
+    padding: 0;
 }
 
-h2 {
-    font-family: 'Georgia', 'Times', 'Times New Roman', 'sans-serif';
 
+.main-content {
+    width: 960px;
+    margin: 10px auto; 
+    padding: 20px;
+    background-color: #ffffff;
 }
 
-img {
+.main-content h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+.main-content img {
     width: 100px;
     float: left;
+    padding: 10px;
 }
 
-p {
+.main-content p {
+    margin: 0 auto;
+    line-height: 2;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
     margin: 0;
-    line-height: 2.0;
+    padding: 0;
+    text-align: center;
 }
 
-.main-footer {
+.foot-container {
+    margin: 0;
+    padding: 0;
     position: relative;
-    border-top: 4px solid #4aaaa5;
-    background-color: #666666;
     color: #ffffff;
-    text-align: center;
-    padding: 50px 0 10px 0;
+    background-color: #666666;
+}
+
+.foot-container p {
+    position: absolute;
+    margin: 20px;
+    padding: 0;
 }
