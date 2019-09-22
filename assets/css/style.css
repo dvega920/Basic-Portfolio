@@ -1,113 +1,86 @@
 body {
+    width: 100%;
     margin: 0;
     padding: 0;
-    width: 100%;
-    background-color: lightgray;
-    color: #777777;
+    background-image: url(../images/grey/grey.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 20px solid #4aaaa5;
-    overflow: auto;
 }
 
-header {
+.main-header {
     width: 100%;
+    position: absolute;
+    top: 0;
     background-color: #ffffff;
-}
-
-.entire-content {
-    width: 960px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0;   
 }
 
 h1 {
     position: relative;
-    left: -20px;
-    margin: 0;
-    padding: 10px;  
+    top: 0;
+    left: 160px;
     float: left;
     background-color: #4aaaa5;
     color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    margin: 0;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav {
     position: relative;
-    left: 40px;
+    top: 20px;
+    right: 145px;
+    margin: 0;
+    padding: 0;
     float: right;
 }
 
 nav ul {
     margin: 0;
-    padding: 0;
     list-style: none;
 }
-
 nav li {
+    margin: 0; 
+    padding: 0 20px;
     float: left;
-    padding: 8px;
 }
 
 nav a {
-    margin-right: 10px;
+    margin: 0;
+    color: #777777;
     text-decoration: none;
 }
 
-/* clears floats */
-header::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
 hr {
+    clear: both;
     margin: 0;
-    padding: 0;
 }
-
 
 .main-content {
     width: 960px;
-    margin: 10px auto; 
-    padding: 20px;
+    height: 400px;
+    margin: 100px auto;
     background-color: #ffffff;
 }
 
-.main-content h2 {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif
+
+h2 {
+    margin: 0;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
-
-.main-content img {
-    width: 100px;
+img {
+    margin: 0;
+    width: 200px;
+    padding-right: 10px;
     float: left;
-    padding: 10px;
 }
 
-.main-content p {
-    margin: 0 auto;
-    line-height: 2;
-}
-
-footer {
-    position: absolute;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.foot-container {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    color: #ffffff;
-    background-color: #666666;
-}
-
-.foot-container p {
-    position: absolute;
-    margin: 20px;
-    padding: 0;
+.main-content p {    
+   margin: 0;
 }
