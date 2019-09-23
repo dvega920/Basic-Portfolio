@@ -77,10 +77,22 @@ h2 {
 img {
     margin: 0;
     width: 200px;
-    padding-right: 10px;
+    padding: 0 20px;
     float: left;
 }
 
 .main-content p {    
    margin: 0;
+   padding: 0 20px;
+}
+
+.footer {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
 }
