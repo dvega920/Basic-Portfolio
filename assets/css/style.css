@@ -44,12 +44,13 @@ nav ul {
 }
 nav li {
     margin: 0; 
-    padding: 0 20px;
+    padding: 0 10px;
     float: left;
 }
 
 nav a {
     margin: 0;
+    padding-right: 10px;
     color: #777777;
     text-decoration: none;
 }
