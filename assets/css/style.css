@@ -6,6 +6,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 
 .main-header {
@@ -72,6 +73,7 @@ h2 {
     margin: 0;
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
 
 }
 
@@ -96,4 +98,13 @@ img {
     color: #ffffff;
     text-align: center;
     border-top: 8px solid #4aaaa5;
+}
+
+.contact-form {
+    padding: 20px;
+    line-height: 30px;
+}
+
+.length {
+    width: 800px;
 }
